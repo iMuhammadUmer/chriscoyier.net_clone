@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #0c0f13 url(images/chris-coyier.jpg) no-repeat bottom 2rem left;
+  background-size: 250px;
+  background-attachment: fixed;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 60%;
+  height: 200px;
+  background-color: blue;
+}
