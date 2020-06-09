@@ -7,6 +7,9 @@
 :root {
   --orange: #ffd560;
   --skin: #fff0c6;
+  --black: #0c0f13;
+  --red: #ee4266;
+  --pink: #f2718c;
 }
 a {
   color: var(--orange);
@@ -102,5 +105,23 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2em;
+  padding-top: 1em;
   background-color: var(--orange);
+}
+.card p {
+  width: 465px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  color: var(--black);
+}
+.card a {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 42px;
+  color: var(--red);
+}
+.card a:hover {
+  color: var(--pink);
 }
