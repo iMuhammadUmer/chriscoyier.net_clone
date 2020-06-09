@@ -89,3 +89,18 @@ p {
   align-items: center;
   flex-direction: column;
 }
+.todo h3 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+}
+.todo .card {
+  width: 550px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange);
+}
