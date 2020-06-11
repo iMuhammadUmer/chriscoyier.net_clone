@@ -147,4 +147,16 @@ footer {
   text-align: center;
   background: rgba(0, 0, 0, 0.9);
   padding: 0.5rem 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul {
+  width: 550px;
+}
+footer li {
+  font-size: 1rem;
+}
+footer li a {
+  text-decoration: none;
 }
