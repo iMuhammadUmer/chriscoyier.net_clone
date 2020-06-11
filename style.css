@@ -129,5 +129,14 @@ p {
   height: 500px;
   width: inherit;
   margin-top: 4em;
-  background-color: var(--orange);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
+.videoSec h1 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 800;
+  color: white;
+}
+
